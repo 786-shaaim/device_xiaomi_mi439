@@ -21,6 +21,10 @@ TARGET_KERNEL_VERSION := 4.19
 # ViperFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Google Camera Lite
+PRODUCT_PACKAGES += \
+       GoogleCameraGo
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
